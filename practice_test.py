@@ -3,15 +3,15 @@
 
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+
 
 # ==========================================
 # 1. 頁面基本設定
 # ==========================================
-st.set_page_config(page_title="Streamlit 教學模板", layout="wide")
+st.set_page_config(page_title="NTTU運動數據分析專題研究", layout="wide")
 
-st.title("🏫 Streamlit 儀表板教學")      # 主標題
-st.markdown("### 基礎功能示範")          # 次標題
+st.title("NTTU運動數據分析專題研究")      # 主標題
+st.markdown("###運動真的健康嗎?")          # 次標題
 st.markdown("---")                       # 分隔線
 
 # ==========================================
